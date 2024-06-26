@@ -1,0 +1,43 @@
+    body {
+        text-align: center;
+        background: rgb(243, 160, 129);
+    }
+
+    #root {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .items {
+        background-color: rgba(255, 255, 255, 0.7);
+        border: 1px solid black;
+        margin: .3rem;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .name {
+        font-size: 1.28em;
+    }
+
+    .price {
+        font-size: 1.18em;
+    }
+
+    .product-img {
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+    }
+
+    #buttons-div {
+        display: flex;
+        justify-content: center;
+        gap: .2rem;
+    }
+
+    button {
+        cursor: pointer;
+    }
